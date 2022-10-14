@@ -8,6 +8,9 @@ body {
 
 @layer components {
   .btn {
-    @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white;
+    @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white inline-block;
+  }
+  .card {
+    @apply p-3 rounded-md bg-white shadow-md h-full;
   }
 }
