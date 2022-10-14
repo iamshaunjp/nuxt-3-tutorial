@@ -13,5 +13,8 @@ export default defineNuxtConfig({
         {rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'}
       ]
     }
+  },
+  runtimeConfig: {
+    currencyKey: 'eJdPhICJUDBt6B4e4IX6DZ4A9Xos4Z2JRZ8xh2v2'
   }
 })
